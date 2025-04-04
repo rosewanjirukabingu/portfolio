@@ -1,4 +1,5 @@
 # 🚀 Rose Kabingu - Portfolio
+live portfolio: https://rosewanjirukabingu.github.io/portfolio/
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience in **Frontend Development and UI/UX Design**. The goal is to present my work in an interactive and visually appealing way, making use of animations and modern web design techniques.
 

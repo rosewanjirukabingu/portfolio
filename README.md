@@ -46,7 +46,7 @@ The website is designed with a focus on **user experience, accessibility, and ae
 - **Scroll Animations** - Elements dynamically appear as the user scrolls down.
 
 ## 📸 Live Demo
-[Click here to view the live demo](#) *(Replace with actual link when deployed)*
+[ https://rosewanjirukabingu.github.io/portfolio/]
 
 ## 🚀 Getting Started
 To run this project locally, follow these steps:
@@ -71,7 +71,7 @@ To deploy this portfolio online, consider using:
 ## 📬 Contact Me
 If you have any questions or feedback, feel free to reach out:
 - **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [linkedin.com/in/mercykabingu](#)
-- **GitHub**: [github.com/mercykabingu](#)
+- **LinkedIn**: [https://www.linkedin.com/in/kabingu-rose-386a51354/](#)
+- **GitHub**: [https://github.com/rosewanjirukabingu/](#)
 
 💡 *I welcome any contributions, feedback, or suggestions to improve my portfolio!* 🚀

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Kabingu | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="shooting-stars"></div>
+    <header>
+        <div class="container">
+            <h1 class="logo">R-kabingu</h1>
+            
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <nav class="nav" id="nav">
+                <div class="close-btn" id="close-btn">&times;</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- -----------Here section---------------- -->
+
+    <section id="home" class="hero">
+        <div class="text-container" data-aos="fade-up" data-aos-delay="200">
+            <h3>Hi 👋, <br /> </h3>
+            <h1>I'm <span>Rose Kabingu</span></h1>
+            <p class="typewriter"></p>
+            <p> I am passionate about creating innovative web solutions and designing seamless user experiences. </p>
+            <a href="#portfolio" class="cta-btn">View My Work</a>
+        </div>
+        <div class="image-container" data-aos="fade-up" data-aos-delay="300">
+            <img src="img/rose.jpeg" alt="rose Kabingu">
+        </div>
+    </section>
+    
+    
+    <!-- ----------------About Section------------------------ -->
+
+    <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
+        <div class="about-container row">
+            <!-- Left Side: Image -->
+            <div class="about-col-1" data-aos="fade-right" data-aos-delay="200">
+                <img src="img/rose.jpeg" alt="About Me">
+            </div>
+    
+            <!-- Right Side: Content -->
+            <div class="about-col-2" data-aos="fade-left" data-aos-delay="400">
+                <h1 class="subtitle">About Me</h1>
+                <p class="about-description">
+                    I am Rose Wanjiru Kabingu, a passionate and innovative IT student at Murang’a University of Technology,
+                     currently in my fourth year. My journey in technology is fueled by a deep curiosity and a desire to create
+                      impactful digital solutions. I thrive on solving problems,
+                     designing seamless user experiences, and bringing ideas to life through web design,
+                      UI/UX, data analysis, networking, and animations.
+                </p>
+                <p class="about-description">
+                    What excites me most about technology is its endless possibilities—from developing 
+                    interactive web applications to analyzing data for meaningful insights. I am particularly
+                     drawn to creating engaging digital experiences, whether through design, development, or 
+                     animations using advanced technologies. My goal is to bridge the gap between functionality 
+                    and aesthetics, ensuring that technology is both powerful and user-friendly.
+                </p>
+    
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('hobbies')">Hobbies</p>
+                    <p class="tab-links" onclick="openTab('Passion')">Passion</p>
+                    <p class="tab-links" onclick="openTab('interest')">Interest</p>
+                </div>
+    
+                <div class="tab-contents active-tab" id="Passion">
+                    <ul>
+                        <li><strong>UI/UX Designing</strong><br>Mobile and Desktop Designs with Figma</li>
+                        <li>Prototyping with Figma</li>
+                        <li><strong>Database Management</strong><br>MySQL</li>
+                        <li><strong>Data Analysis</strong><br>Power BI</li>
+                        <li>Transforming raw data into actionable insights for better decision-making.</li>
+                        <li><strong>Networking </strong><br></li>
+                        <li>Understanding how systems communicate and ensuring seamless connectivity.</li>
+                    </ul>
+                </div>
+    
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li>Listening to Podcasts & Watching Tech Videos</li>
+                        <li>Animating & Motion Graphic</li>
+                        <li>Exploring Web & UI/UX Design</li>
+                        <li>Creative Arts & Digital Drawing</li>
+                    </ul>
+                </div>
+    
+                <div class="tab-contents" id="interest">
+                    <ul>
+                        <li><b>UI/UX Designing</b></li>
+                        <li><b>web development</b></li>
+                        <li><b>Database Management</b><br>MySQL</li>
+                        <li><b>Data Analysis</b><br>Power BI</li>
+                        <li><b>Networking </b><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<!-- ----------------Services Section------------------- -->
+<section id="services" class="services-section py-16">
+    <div class="section-content">
+        <h2 class="section-heading" data-aos="fade-up">Services</h2>
+        <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">What I Offer</h1>
+        <div class="service-grid">
+            <div class="service-card" data-aos="zoom-in">
+                <h3 class="service-title">Web Development</h3>
+                <p class="service-description">I build responsive, high-performance websites tailored to meet your business goals and deliver a smooth user experience.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                <h3 class="service-title">UI/UX Design</h3>
+                <p class="service-description">I create user-centered designs that offer seamless, intuitive experiences, ensuring both functionality and aesthetics are perfectly balanced.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in">
+                <h3 class="service-title">Data Analysis</h3>
+                <p class="service-description">I analyze complex data sets using Power BI to uncover key insights, helping businesses make informed decisions and drive growth.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in">
+                <h3 class="service-title">Network configuration</h3>
+                <p class="service-description">I design and configure secure, high-performance networks, optimizing connectivity and ensuring smooth data flow across systems.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- -------------------Skills section----------------------- -->
+<section id="skills" class="skills-section py-16">
+    <div class="section-content">
+        <h2 class="section-heading" data-aos="fade-up">Skills</h2>
+        <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill" data-aos="zoom-in" data-aos-delay="300">
+                <div class="progress-circle" data-progress="80">
+                    <span class="progress-value">0%</span>
+                </div>
+                <p class="skill-name">Web Development</p>
+            </div>
+            <div class="skill" data-aos="zoom-in" data-aos-delay="500">
+                <div class="progress-circle" data-progress="73">
+                    <span class="progress-value">0%</span>
+                </div>
+                <p class="skill-name">UI/UX Design</p>
+            </div>
+            <div class="skill" data-aos="zoom-in" data-aos-delay="300">
+                <div class="progress-circle" data-progress="80">
+                    <span class="progress-value">0%</span>
+                </div>
+                <p class="skill-name">Data Analysis</p>
+            </div>
+            <div class="skill" data-aos="zoom-in" data-aos-delay="300">
+                <div class="progress-circle" data-progress="78">
+                    <span class="progress-value">0%</span>
+                </div>
+                <p class="skill-name">Network configuration</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- -----------------Portfolio Sections----------------- -->
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-heading" data-aos="fade-up">Portfolio</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Check out some of my projects.</p>
+        <div class="projects">
+            
+      <div class="flip-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/figma.1.jpeg" alt="Project Image">
+          </div>
+          <div class="flip-card-back">
+            <h3>Figma Design</h3>
+            <p>I design intuitive, user-friendly mobile interfaces with a focus on accessibility, aesthetics, and seamless interactions.</p>
+            <a href="https://www.figma.com/proto/xmUZ0z5eQkzyyPls2bnyhA/mobile-app-for-rental-houses?node-id=15-73&p=f&t=DAvcVgUPNoGbNbMn-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A22">View Project</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="flip-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/figma.2.jpeg" alt="Project Image">
+          </div>
+          <div class="flip-card-back">
+            <h3>Figma Design</h3>
+            <p>I design user-friendly, visually appealing interfaces with a focus on seamless experiences, accessibility, and modern aesthetics.</p>
+            <a href="https://www.figma.com/proto/gwzHrt6XaMafbQiY2E2AMT/interior-design?node-id=1-2&p=f&t=N5tYomNLdEJBWX7G-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="flip-card" data-aos="fade-up" data-aos-delay="700">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/web.jpeg" alt="Project Image">
+          </div>
+          <div class="flip-card-back">
+            <h3>EduTogether</h3>
+            <p>EduTogether is a platform that enhances communication between
+                 teachers, parents, and administrators, streamlining the exchange
+                  of information, assignments, 
+                and announcements in real-time.</p>
+            <a href="https://frontend-edutogether.vercel.app/">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-------------------Education Section---------------------- -->
+<div id="education" class="education-container">
+    <h1  data-aos="fade-up">Education</h1>
+    <section class="timeline"  data-aos="fade-up" data-aos-delay="200">
+        <div class="timeline-item left">
+            <div class="line left-line"></div>
+            <div class="text-box left">
+                <h3>BSc Infromation Technology - Murang'a University</h3>
+                <p>Currently a final-year student, expected to graduate in August 2025.</p>
+                <span class="date">2021 - 2025</span>
+            </div>
+        </div>
+    
+        <div class="timeline-item right">
+            <div class="line right-line"></div>
+            <div class="text-box right">
+                <h3>Power Learn Program & Safaricom Hooks</h3>
+                <p>Web development training.</p>
+                <span class="date">2025 - Present</span>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- -------------------certification------------------ -->
+<div id="education" class="education-container">
+    <h1  data-aos="fade-up">Certifications</h1>
+    <section class="timeline"  data-aos="fade-up" data-aos-delay="200">
+        <div class="timeline-item left">
+            <div class="line left-line"></div>
+            <div class="text-box left">
+                <h3>Simply learn skillup Online Platform</h3>
+                <p>Introduction to Data Analytics</p>
+                <p>Power BI for Beginners</p>
+                <p>Certified in Data Analytics and Data Analysis with expertise in Power BI for data visualization and insights</p>
+            </div>
+        </div>
+    
+        <div class="timeline-item right">
+            <div class="line right-line"></div>
+            <div class="text-box right">
+                <h3>Cisco for All</h3>
+                <p>Introduction to Data Science</p>
+                <p>Packet Tracer</p>
+                <p>Certified Data Science, and Packet Tracer</p>
+               
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+<!-- --------contact section----------------- -->
+
+   
+<section id="contact" class="contact-section">
+            <h2 class="section-heading"  data-aos="fade-up">Contact</h2>
+            <h1 class="section-title" data-aos="fade-up" data-aos-delay="200">Get in Touch</h1>
+     
+        <div class="contact-content">
+            
+            <!-- Contact Info -->
+            <div class="contact-details" data-aos="fade-up" data-aos-delay="400">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email</p>
+                    <p>kabingurose@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Phone</p>
+                    <p>+254 7951 302 49</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location</p>
+                    <p>Murang'a, Kenya</p>
+                </div>
+               
+                <a href="img/Kabingu Rose Resume.pdf" download="document.pdf">
+                    <div class="btn-cv">
+                        <i class="fa-solid fa-download"></i>
+                        <p>Download CV</p>
+                    </div>
+                  </a>
+
+                <div class="social-icons">
+                    <a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <!-- <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a> -->
+                    <a href="https://www.linkedin.com/in/kabingu-rose-386a51354/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/rosewanjirukabingu" class="github"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                <div id="success-message" class="hidden">Message Sent Successfully!</div> 
+            
+                <form id="contactForm" action="https://formsubmit.co/kabingurose@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+            
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>         
+
+        </div>
+    </div>
+</section>
+
+
+<!-- -----------------------footer--------------------- -->
+    <footer>
+        <p>© 2025 Kabingu Rose. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+<script>
+    AOS.init(); 
+  </script>
+  
+</body>
+</html>
